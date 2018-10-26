@@ -1,0 +1,111 @@
+
+html {
+    height: 100%;
+}  
+  
+html,
+  body {
+    width: 100%;
+    min-height: 100% !important;
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  }
+
+  body.fontLoaded {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  #sandman {
+    background-color: #edeef0;
+    min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+  }
+
+  .img-res{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .img-size{
+    width: 20%;
+    min-width: 100px;
+  }
+
+  .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-right: auto;
+    width: 60%;
+    max-width: 100%;
+  }
+
+  .mrg-t-xs{
+    margin-top: 10px;
+  }
+
+  .mrg-t-sm{
+    margin-top: 30px;
+  }
+
+  .mrg-v-sm{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .mrg-v-xs{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .fn-sm{
+    font-size: .8em;
+  }
+
+  .height-100{
+    height: 100%;
+  }
+
+  .width-100{
+    width: 100%;
+  }
+
+.pd-25{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pos-relative{
+  position: relative
+}
+
+.pos-absolute{
+  position: absolute
+}
+
+.w-f{
+  color: #ffff
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}

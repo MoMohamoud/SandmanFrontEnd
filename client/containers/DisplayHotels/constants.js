@@ -1,0 +1,1 @@
+export const DEFAULT_ACTION = 'app/DisplayHotels/DEFAULT_ACTION';
